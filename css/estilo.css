@@ -1,0 +1,41 @@
+h2,h1.tita {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #005677;
+    background-color:#C4C4C4;
+    letter-spacing:normal;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.datosp {
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.años {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+body {
+    font-size: 15px;
+}
+footer{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #005677;
+    color:#FFFFFF;
+}
