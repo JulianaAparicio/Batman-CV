@@ -1,3 +1,6 @@
+* {
+    box-sizing:border-box;
+}
 
 /*HEADER*/
 
@@ -8,9 +11,17 @@ header {
 .icono{
     margin: auto;
     display: block;
+    padding: 21px;
 }
 
 /*MAIN*/
+
+main{
+    padding-left: 225px;
+    padding-top: 104px;
+    padding-right: 174px;
+    padding-bottom: 213px;
+}
 
 h2,h1.tita {
     font-family: 'Times New Roman', Times, serif;
@@ -18,17 +29,19 @@ h2,h1.tita {
     text-transform: uppercase;
     color: #005677;
     background-color:#C4C4C4;
-    letter-spacing:normal;
+    letter-spacing:0.2em;
     font-weight: bold;
 }
 
 h1 {
     font-size: 35px;
     text-align: center;
+    padding: 15px;
 }
 
 h2 {
     font-size: 20px;
+    padding: 7px;
 }
 
 .datosp {
@@ -42,10 +55,6 @@ h2 {
     font-size: 15px;
 }
 
-main  {
-    align-items: center;
-}
-
 
 /*FOOTER*/
 
@@ -57,4 +66,5 @@ footer{
     text-align: center;
     background-color: #005677;
     color:#FFFFFF;
+    padding: 10px;
 }
